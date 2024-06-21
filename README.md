@@ -1,5 +1,5 @@
-# Game Assets and Controls
-
+# Fighting
+A simple fighting game made in JavaScript
 ## Asset Credits
 
 - **Background:**  
