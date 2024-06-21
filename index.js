@@ -12,38 +12,38 @@ const player = new Fighter({
     velocity: {x : 0, y : 0},
     offset: {x : 0, y : 0},
     color: 'blue',
-    imageSrc: '../assets/Hero Knight 2/Sprites/Idle.png',
+    imageSrc: '../assets/Hero_Knight_2/Sprites/Idle.png',
     frames: 11,
     scale: 2.5,
     offset: {x:140, y: 107},
 
     sprites: {
         idle: {
-            imageSrc: '../assets/Hero Knight 2/Sprites/Idle.png',
+            imageSrc: '../assets/Hero_Knight_2/Sprites/Idle.png',
             frames: 11,
         },
         run: {
-            imageSrc: '../assets/Hero Knight 2/Sprites/Run.png',
+            imageSrc: '../assets/Hero_Knight_2/Sprites/Run.png',
             frames: 8,
         },
         jump: {
-            imageSrc: '../assets/Hero Knight 2/Sprites/Jump.png',
+            imageSrc: '../assets/Hero_Knight_2/Sprites/Jump.png',
             frames: 4
         },
         fall: {
-            imageSrc: '../assets/Hero Knight 2/Sprites/Fall.png',
+            imageSrc: '../assets/Hero_Knight_2/Sprites/Fall.png',
             frames: 4
         },
         attack: {
-            imageSrc: '../assets/Hero Knight 2/Sprites/Attack.png',
+            imageSrc: '../assets/Hero_Knight_2/Sprites/Attack.png',
             frames: 6
         },
         takeHit: {
-            imageSrc: '../assets/Hero Knight 2/Sprites/Take Hit.png',
+            imageSrc: '../assets/Hero_Knight_2/Sprites/Take_Hit.png',
             frames: 4
         },
         death: {
-            imageSrc: '../assets/Hero Knight 2/Sprites/Death.png',
+            imageSrc: '../assets/Hero_Knight_2/Sprites/Death.png',
             frames: 9
         }
     },
@@ -61,35 +61,35 @@ const enemy = new Fighter({
     color: 'red',
     scale: 2.5, 
     offset: {x:140, y: 114},
-    imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Idle.png',
+    imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Idle.png',
     
     sprites: {
         idle: {
-            imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Idle.png',
+            imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Idle.png',
             frames: 10,
         },
         run: {
-            imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Run.png',
+            imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Run.png',
             frames: 6,
         },
         jump: {
-            imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Jump.png',
+            imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Jump.png',
             frames: 2
         },
         fall: {
-            imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Fall.png',
+            imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Fall.png',
             frames: 2
         },
         attack: {
-            imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Attack1.png',
+            imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Attack1.png',
             frames: 4
         },
         takeHit: {
-            imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Get Hit.png',
+            imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Get_Hit.png',
             frames: 3
         },
         death: {
-            imageSrc: '../assets/Medieval Warrior Pack 3/Sprites/Death.png',
+            imageSrc: '../assets/Medieval_Warrior_Pack_3/Sprites/Death.png',
             frames: 9
         }
     },
