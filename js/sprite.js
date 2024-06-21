@@ -14,6 +14,7 @@ class Sprite {
     }
 
     draw(){
+       console.log(this.image);
        c.drawImage(this.image,
                    this.frameCurrent * (this.image.width / this.frames),
                    0,
