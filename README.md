@@ -1,5 +1,6 @@
 # Fighting
 A simple fighting game made in JavaScript.
+
 Website: https://6675e4f6769adae26e58df30--poetic-pithivier-1a4344.netlify.app/
 
 (GitHub Pages was being a pain...)
