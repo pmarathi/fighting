@@ -1,0 +1,41 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: "Press Start 2P", system-ui;
+        }
+    </style>
+</head>
+<body>
+    <!--large container div-->
+    <div style="position: relative; display: inline-block;">
+        <!--GUI-->
+        <div style="position: absolute; display: flex; width: 100%; align-items: center; padding: 20px">
+            <!--player health-->
+            <div style="position: relative; width: 100%; display: flex; justify-content: flex-end; border-top: 3px solid white; border-bottom: 3px solid white; border-left: 3px solid white">
+                <div style="background-color: red;height: 30px; width: 100%"></div>
+                <div id="playerHealth"  style="position: absolute; background-color: lightgreen; top: 0; width: 100%; right: 0; bottom: 0;"></div>
+            </div>
+            <!--timer-->
+            <div id="timer" style="background-color: black; height: 50px; width: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color:white; border: 3px solid white">
+                
+            </div>
+            <!--enemy health-->
+            <div style="position: relative; width: 100%; display: flex; justify-content: flex-end; border-top: 3px solid white; border-bottom: 3px solid white; border-right: 3px solid white">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="enemyHealth" style="position: absolute; background-color: lightgreen; top: 0; left: 0; right: 0; bottom: 0;"></div>
+            </div>
+        </div>
+        <div id="displayText" style="position: absolute; color: white; align-items: center; justify-content: center; top: 0; right: 0; bottom: 0; left: 0; display: none;">tie!</div>
+        <canvas></canvas>
+    </div>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="util.js"></script>
+<script src="sprite.js"></script>
+<script src="fighter.js"></script>
+<script src="index.js"></script>
+</body>
