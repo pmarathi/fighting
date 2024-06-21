@@ -34,20 +34,7 @@ class Fighter extends Sprite {
             sprites[sprite].image = new Image();
             sprites[sprite].image.src = sprites[sprite].imageSrc;
         }
-    }
-
-    draw(){
-        //draw sprite
-        c.fillStyle = this.color;
-        // draw player hitbox
-        // c.fillRect(this.position.x, this.position.y, this.width, this.height);
-        // draw attack box
-        // uncomment to show hitbox
-        // if(this.isAttacking){
-        // c.fillStyle = 'yellow';
-        // c.fillRect(this.attackBox.position.x, this.attackBox.position.y, this.attackBox.width, this.attackBox.height);
-        // }
-        super.draw();
+        console.log(sprites);
     }
     
     attack(){

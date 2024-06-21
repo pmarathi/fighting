@@ -13,7 +13,9 @@ function rectangularCollision({ rectangle1, rectangle2 }) {
 function displayWinner(timerId){
     clearTimeout(timerId);
     if(player.health === enemy.health){
-        document.querySelector("#displayText").innerHTML = "tie!";
+        document.querySelector("#displayText").innerHTML = "Tie!";
+        player.isDead = true;
+        enemy.isDead = true;
     } else if (player.health > enemy.health){
         document.querySelector("#displayText").innerHTML = "P1 wins!";
     } else if (player.health < enemy.health){
